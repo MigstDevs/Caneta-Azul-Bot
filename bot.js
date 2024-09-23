@@ -133,7 +133,7 @@ client.on("interactionCreate", async (interaction) => {
 
   const { commandName, options } = interaction;
   switch (commandName) {
-    case "giveaway":
+    case "sorteio":
       giveawayRun(interaction, options);
       break;
   }
